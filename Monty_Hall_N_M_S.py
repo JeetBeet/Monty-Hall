@@ -1,16 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 24 14:14:29 2023
+Module for the Monte Carlo Simulation of a generalised version of the
+Monty Hall Problem.
 
-@author: Administrator
+It can be used as a library or as a stand alone program.
 
-Monty Hall, with N doors
-M goats
-and P Rounds
-
-version 0.2
+call: python(.exe) Monty_Hall_N_M_S.py -h for detailed description and usage
 
 """
+
+__author__ = "Jethro Betcke"
+__copyright__ = "Copyright 2024, Jethro Betcke"
+__version__ = "0.03"
+__maintainer__ = "Jethro Betcke"
+__status__ = "Production"
 
 
 
