@@ -179,7 +179,11 @@ def Monty_hall_NMP_vector(nrofdoors=3, nrofprices=1,  nrofsamples=100000):#nrofr
 
     # vertical vector with the first guess of the candidate 
     # each element corresponds with a random sample
-    firstguess=np.random.randint(0, high=nrofdoors, size=nrofsamples)  
+    rand_generator = np.random.default_rng()
+    
+    firstguess = rand_generator.integers(low=0, high=nrofdoors,
+                                                 size=nrofsamples)
+      
     price_guessed_mask=(firstguess<nrofprices)
     
     
